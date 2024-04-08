@@ -68,7 +68,7 @@ For versioning, we are following [semantic versioning](https://semver.org).
 
 ### Automated Release
 
-_TBD_
+[ ] **TODO**: Add automated release instructions
 
 ### Manual Release
 
