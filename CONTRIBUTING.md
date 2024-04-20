@@ -1,12 +1,13 @@
+# Contributing
+
 > ⚠️ **UPDATES REQUIRED** ⚠️
-> 
+>
 > Make sure to update the content in this guide as necessary:
-> - Update `repo_name_here` placeholder in repo `[fork]` and `[pr]` URLs at the top of this file
+>
+> - Update `repo_name_here` placeholder in repo `[fork]` and `[pr]` URLs below
 > - Verify `LICENSE` and `CODE_OF_CONDUCT.md` files exist and the URLs here are valid
 > - Complete the **TODO**'s below as necessary
 > - Remove these notes once complete
-
-# Contributing
 
 [fork]: https://github.com/tylermilner/repo_name_here/fork
 [pr]: https://github.com/tylermilner/repo_name_here/compare
@@ -25,15 +26,17 @@ by its terms.
 
 ## Source Code Overview
 
-[ ] **TODO**: A high-level overview of the main files involved in the project
+**TODO**: Provide a high-level overview of the main files involved in the project
 
 ## Making Code Changes
 
-[ ] **TODO**: The steps necessary to get the project up-and-running on a developer's local environment
+**TODO**: Provide the steps necessary to get the project up-and-running on a
+developer's local environment
 
 ## Submitting a pull request
 
-[ ] **TODO**: Update `insert_command_here` placeholders in below steps to install dependencies, run tests, etc.
+**TODO**: Update `insert_command_here` placeholders in below steps to install
+dependencies, run tests, etc.
 
 1. [Fork][fork] and clone the repository
 2. Configure and install the dependencies: `insert_command_here`
@@ -76,7 +79,8 @@ Perform the following steps to create a manual release:
 
 1. Make sure all desired changes have been pushed to the `main` branch.
 2. Create a `release/*` branch off of `main` (e.g. `release/v1.0.1`).
-3. Update the version in any necessary manifest files (e.g. `package.json` to the desired version.
+3. Update the version in any necessary manifest files (e.g. `package.json` to
+the desired version.
 4. Create a pull request from the `release/*` branch to `main`.
 5. Once the pull request is merged, create a new release targeted on `main` in
    the GitHub UI. Make sure to set it to create the corresponding tag on publish
